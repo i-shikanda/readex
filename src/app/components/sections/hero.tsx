@@ -12,18 +12,16 @@ export default function Hero() {
           Read books, expand your mind, and learn something new every day <br />{" "}
           any where, any time.
         </p>
-<<<<<<< HEAD
         <div className="hero__cta flex items-center justify-center space-x-4 mt-6">
           <Link
             href="/about"
             className="bg-white px-8 py-3 rounded-xl text-blue-800 font-semibold shadow-lg hover:border hover:border-white hover:bg-[#5a56e9] hover:text-white transition-all duration-300 ease-in-out"
           >
             Get Started
-=======
+          </Link>
         <div className="hero__cta">
           <Link href="/about">
             Learn More
->>>>>>> 6a5405ca44fa2edff2762df44d5b95430ed5cae8
           </Link>
           <Link
             href="/about"
@@ -42,6 +40,7 @@ export default function Hero() {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 }
