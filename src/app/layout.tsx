@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { DM_Sans, Public_Sans, Work_Sans } from "next/font/google";
 import "./globals.css";
 
-const dmsans = DM_Sans({ subsets: ["latin"] });
+const dmsans = Public_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Redex",
