@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="hero bg-[url('/hero_bg.png')] bg-cover bg-repeat-none rounded-b-xl pt-8 min-h-[80vh] flex items-center justify-center text-white">
       <div className="hero__content">
-        <h1 className="hero__title text-6xl font-semibold text-center">
+        <h1 className="hero__title text-6xl font-bold text-center">
           Expand your mind, <br /> reading a book
         </h1>
         <p className="hero__subtitle text-xl text-center mt-2">
@@ -15,13 +15,13 @@ export default function Hero() {
         <div className="hero__cta mt-8 flex items-center justify-center space-x-10">
           <Link
             href="/about"
-            className="px-10 py-3 bg-white rounded-xl shadow-xl text-[#5a56e9] font-semibold hover:border hover:bg-transparent hover:text-white transition-all duration-300 ease"
+            className="px-10 py-2 bg-white rounded-xl shadow-xl text-[#5a56e9] font-semibold hover:border hover:bg-transparent hover:text-white transition-all duration-300 ease"
           >
             Get Started
           </Link>
           <Link
             href="/about"
-            className="font-semibold px-6 py-3 rounded-xl border border-white hover:bg-white hover:text-[#5a56e9] transition-all duration-300 ease-in-out"
+            className="font-semibold px-6 py-2 rounded-xl border border-white hover:bg-white hover:text-[#5a56e9] transition-all duration-300 ease-in-out"
           >
             Learn More
           </Link>
