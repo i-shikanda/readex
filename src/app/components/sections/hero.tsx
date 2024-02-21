@@ -5,10 +5,10 @@ export default function Hero() {
   return (
     <div className="hero bg-[url('/hero_bg.png')] bg-cover bg-repeat-none rounded-b-xl pt-8 min-h-[80vh] flex items-center justify-center text-white">
       <div className="hero__content">
-        <h1 className="hero__title text-6xl font-bold text-center">
+        <h1 className="hero__title text-4xl md:text-6xl font-bold text-center">
           Expand your mind, <br /> reading a book
         </h1>
-        <p className="hero__subtitle text-xl text-center mt-2">
+        <p className="hero__subtitle md:text-xl text-center mt-2">
           Read books, expand your mind, and learn something new every day <br />{" "}
           any where, any time.
         </p>
@@ -26,7 +26,7 @@ export default function Hero() {
             Learn More
           </Link>
         </div>
-        <div className="hero__image relative mt-32 h-36">
+        <div className="hero__image relative mt-32 h-36 rounded-b-xl">
           <Image
             src="/hero_img.png"
             alt="Hero Image"
@@ -35,6 +35,7 @@ export default function Hero() {
             className="absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 mx-auto"
           />
         </div>
+
       </div>
     </div>
   );
