@@ -6,7 +6,7 @@ export default function Information() {
     <div className="py-8 flex px-12 bg-[url('/info_bg.png')] bg-no-repeat mt-10">
       <div className="flex flex-col w-1/2">
         <h1 className="font-semibold text-5xl">
-          {"What will you find in Readex Library ?"}
+          {"What will you find in Redex Library ?"}
         </h1>
         <p className="texy-xl mt-6">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
