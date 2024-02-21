@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="py-8 px-12 bg-[#ffeddf] mt-20 pt-12">
+    <div className="py-8 px-12 bg-[#ffeddf] mt-28 pt-12">
       <h1 className="flex">
         <span className="text-4xl font-semibold flex w-1/2">
           About Redex Library.

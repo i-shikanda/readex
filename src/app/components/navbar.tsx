@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="flex px-6 md:px-12 py-4 bg-blue-500 justify-between items-center text-white">
+    <nav className="flex px-6 md:px-12 py-4 bg-[#5a56e9] justify-between items-center text-white">
       <Link href={"/"} className="font-semibold text-2xl">
         Redex
       </Link>
