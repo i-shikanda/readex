@@ -10,7 +10,7 @@ export default function Hero() {
         </p>
         <div className="hero__cta">
           <Link href="/about">
-            <a className="button button--primary">Learn More</a>
+            Learn More
           </Link>
         </div>
       </div>
